@@ -6,6 +6,15 @@ body{
     background-color: #548687; 
     text-align:center;
 }
+#heading{
+    color:#121210;
+    font-family: sans-serif; 
+     text-transform: uppercase;   
+}
+#heading:hover{
+    text-decoration: underline;
+   
+}
 .container{
     height: 70vh;
      display:flex;
@@ -34,8 +43,6 @@ body{
     background-color: rgb(31, 45, 45);
 }
 .box:hover{
-     height:18.2vmin;
-    width:18.2vmin; 
       background-color: rgb(32, 37, 37);
 }
 #reset-btn{
@@ -47,6 +54,14 @@ body{
    padding:1rem;
    color:#fff;
    background-color: #191913;
+}
+#reset-btn:hover{
+    background-color: #21211c; 
+    color:#fcbfbf; 
+    font-size: 1.28rem;
+    height:7.5vmin;
+    width:14.5vmin;
+    
 }
 .msg-container{
     height:100vmin;
@@ -72,4 +87,11 @@ body{
    padding:1rem;
    color:#fff;
    background-color: #191913;  
+}
+#new-btn:hover{
+    background-color: #21211c; 
+    color:#fcbfbf; 
+    font-size: 1.28rem;
+    height:7.5vmin;
+    width:14.5vmin; 
 }
